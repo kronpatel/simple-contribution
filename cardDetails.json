@@ -488,30 +488,35 @@
     {
       "name": "Meryem Ahmaine",
       "profession": "Full stack developer",
+      "quote" : "Clean code is the best documentation",
       "github": "https://github.com/meryemahmaine",
       "linkedin": "https://www.linkedin.com/in/meryem-ahmaine-aa76a728b/"
     },
     {
       "name": "Ch.Sai Pradyumna Goud",
       "profession": "Apspiring Full stack developer",
+      "quote": "Push yourself harder than you push to GitHub",
       "github": "https://github.com/saipradyumnagoud",
       "linkedin": "https://www.linkedin.com/in/saipradyumnagoudch/"
     },
     {
       "name": "Morris Bundi",
       "profession": "Machine Learning",
+      "quote": "Talk is cheap. Show me the code",
       "github": "https://github.com/morrisbmm",
       "linkedin": "https://www.linkedin.com/in/morris-bundi-1873721bb//"
     },
     {
       "name": "Salma Hussien",
       "profession": "Software Engineer",
+      "quote":"Good developers write code; great developers share it.",
       "github": "https://github.com/Sallmahussien",
       "linkedin": "https://www.linkedin.com/in/sallma-ahmed/"
     },
     {
       "name": "zehor-l",
       "profession": "Apspiring Engineer",
+      "quote":"The best coders debug more than they brag",
       "github": "https://github.com/zehor-l",
       "linkedin": "https://linkedin.com/in/zehor-lahlah"
     },
@@ -771,17 +776,6 @@
       "email": "mailto://sergiusnyah@gmail.com"
     },
     {
-      "name": "Brian kyalo",
-      "profession": "Software Developer",
-      "quote": "\"Keep Pushing\"</br> - Said by Alcatraz",
-      "twitter": "https://twitter.com",
-      "dribbble": "https://dribbble.com",
-      "behance": "https://behance.com",
-      "github": "https://github.com/kyalo3",
-      "linkedin": "https://linkedin.com/brian-kyalo-531394281/",
-      "email": "mailto:kyalokimeu0@gmail.com"
-    },
-    {
       "name": "J R Jewell",
       "profession": "Web Developer",
       "quote": "\"The world is a mountain, in which your words are echoed back to you.\"</br> - Said by Rumi",
@@ -860,15 +854,6 @@
       "email": "akashggaonkar@gmail.com"
     },
     {
-      "name": "Mblessing Muchafa CoderBlee",
-      "profession": "Student| CyberSecurity| SoftwareEngineer| Data Analysis",
-      "quote": "\"Everything has its own time, hold on as there is light at the end of the tunnel\"</br> - Said by GamuchiraiM",
-      "twitter": "https://twitter.com/kamoblessingg",
-      "github": "https://github.com/CoderBlee",
-      "linkedin": "https://www.linkedin.com/in/blessing-muchafa-772305247/",
-      "email": "gamuchiraiblessing7@gmail.com"
-    },
-    {
       "name": "Sabeha Khan",
       "profession": "Computer Science Student",
       "quote": "\"If it works, don't touch it.\"</br> - Anonymous",
@@ -897,6 +882,7 @@
     {
       "name": "Dhel Malith",
       "profession": "Junior Cybersecurity Analyst",
+      "quote":"To protect data is to protect people",
       "twitter": "https://twitter.com/ThomasObote1?s=09",
       "github": "https://github.com/thomasobote211",
       "linkedin": "https://www.linkedin.com/in/thomas-obote-a7b5131b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -905,6 +891,7 @@
     {
       "name": "Jim Hatley",
       "profession": "Programmer",
+      "quote":"Knowledge grows by sharing, not saving",
       "github": "https://github.com/jhatley75",
       "email": "jimdhatley@gmail.com"
     },
@@ -1089,15 +1076,6 @@
       "github": "https://github.com/felixdomingos1",
       "linkedin": "https://www.linkedin.com/in/f%C3%A9lixdomingos/",
       "email": "Félix:felixsdomingos93@gmail.com"
-    },
-    {
-      "name": " Elísio Massaqui",
-      "profession": "Web FrontEnd & Mobile Developer",
-      "quote": "When you believe so much in something, that thing becomes real. -Mr.Robot",
-      "twitter": "https://twitter.com/elisio_massaqui",
-      "github": "https://github.com/elisioMassaqui",
-      "linkedin": "https://www.linkedin.com/in/el%C3%ADsio-massaqui-202635291/",
-      "email": "elisiomassaqui8@gmail.com"
     },
     {
       "name": "Anish Yakkanti",
@@ -1309,6 +1287,7 @@
       "name": "Aaron Muti",
       "profession": "Data Engineer",
       "quote": "\"Sangala Waya\"</br> - Markus Wings",
+      "github":"https://github.com/aaron-muti-420",
       "email": "mailto:aaron@forestdigitalacademy.com"
     },
     {
@@ -1531,6 +1510,7 @@
     {
       "name": "Ahmed Bentabet",
       "profession": "SWE Student",
+      "quote":"Backend runs the world; security keeps it alive",
       "github": "https://github.com/ahmedbentabet",
       "linkedin": "https://www.linkedin.com/in/ahmedbentabet/"
     },
@@ -1564,6 +1544,7 @@
     {
       "name": "Ayush gupta",
       "profession": "Student",
+      "quote":"Think like a programmer, solve like a scientist",
       "github": "https://github.com/ayushgupta35",
       "linkedin": "https://linkedin.com/ayushgupta1",
       "email": "mailto:ayushg3512@gmail.com"
@@ -1571,7 +1552,8 @@
     {
       "name": "Gamila Programmer",
       "profession": "Frontend Developer",
-      "github": "https://github.com/gameliaprogrammer",
+      "quote":"Frontend is not just coding, it’s art in motion",
+      "github": "https://github.com/GamilaCoding",
       "linkedin": "https://www.linkedin.com/in/jamila-developer/",
       "email": "mailto:youremail@gmail.com"
     },
@@ -1701,7 +1683,8 @@
     {
       "name": "Wairimu Maringa",
       "profession": "Tech",
-      "Quote": "be free and live fully"
+      "quote": "be free and live fully",
+      "github":"https://github.com/WairimuMaringa"
     },
     {
       "name": "Rachael Odetayo",
@@ -1834,8 +1817,8 @@
     },
     {
       "name": "Shiv Patle",
-      "Profession" : "MERN stack Developer | Full Stack Developer",
-      "quota" : "it doesn't matter when you start, but how you finish that matters!",
+      "profession" : "MERN stack Developer | Full Stack Developer",
+      "quote" : "it doesn't matter when you start, but how you finish that matters!",
       "github" : "https://github.com/Shiv-Patel-24",
       "linkedin": "https://www.linkedin.com/in/shiv-patel-94b542223?"
     }
