@@ -63,6 +63,12 @@ def validate_json(file_path):
             has_error = True
         else:
             seen.add(fingerprint)
+        
+        # Email validation
+        email = card.get("email","").strip()
+        if email and not email.startswith("mailto:"):
+            errors.append(f"⚠️ Warning in Entry {idx} ('{name}') → 'email' should start with 'mailto:'")
+            has_error = True
 
         # Add to valid list if no errors
         if not has_error:
