@@ -1,0 +1,61 @@
+name: JSON Validator
+
+on:
+  pull_request_target:
+    paths:
+      - "cardDetails.json"
+  push:
+    paths:
+      - "cardDetails.json"
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0   # full history for forked PR
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run JSON validator
+        id: validate
+        run: |
+          set -o pipefail
+          python validator.py cardDetails.json > result.log || echo "has_error=true" >> $GITHUB_ENV
+
+      - name: Post error comment
+        if: env.has_error == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const errors = fs.readFileSync('result.log', 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "🚨 JSON Validation Failed:\n\n```\n" + errors + "\n```"
+            });
+
+      - name: Post success comment
+        if: env.has_error != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "✅ JSON Validation Passed! 🌟⭐🌟🌟🌟 🙌"
+            });
